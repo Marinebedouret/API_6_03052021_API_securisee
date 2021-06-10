@@ -1,56 +1,56 @@
-# Titre du projet
-_(juste en dessous des badges sympatiques à placer)_
+# Openclassrooms Développeur web
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com)  [![forthebadge](http://forthebadge.com/images/badges/powered-by-electricity.svg)](http://forthebadge.com)
 
-Une petite description du projet
 
-## Pour commencer
+## Projet 6 : Construisez une API sécurisée pour une application d'avis gastronomiques
 
-Entrez ici les instructions pour bien débuter avec votre projet...
+L'objectif du projet 6 est de créer le backend de l'application "So Pekocko", pour permettre aux utilisateurs de créer leurs sauces préférées et de liker ou de disliker les sauces ajoutées par les autres utilisateurs de l'application.
 
-### Pré-requis
+Le frontend de l'application est déjà founi et codé.
 
-Ce qu'il est requis pour commencer avec votre projet...
+### Contexte du projet
 
-- Programme 1
-- Programme 2
-- etc...
+- So Pekocko est une entreprise familiale de 10 salariés.
+- L'activité principale est la création de sauces piquantes.
+- L'entreprise souhaite se développer et créer une application web.
 
-### Installation
+### Exigence du projet 
 
-Les étapes pour installer votre programme....
+- Création d'une API sécurisé, respectant le RGPD et les standards OWASP
+- Stocker les données personnelles des utilisateurs de manière sécurisée
+- Sécuriser la base de données MongoDB
+- Mettre en place CRUD de manière sécurisée
 
-Dites ce qu'il faut faire...
+## Contenus du repository
 
-_exemple_: Executez la commande ``telnet mapscii.me`` pour commencer ensuite [...]
+- Le repository contient seulement le dossier Backend. Pour accèder au dossier backend, il vous suffit de cloner ce repository pour le récupérer en local.
 
+- Vous trouverez le Frontend de l'application [ici](https://github.com/OpenClassrooms-Student-Center/dwj-projet6).
 
-Ensuite vous pouvez montrer ce que vous obtenez au final...
+## Installation du projet
 
-## Démarrage
+- Cloner ce projet depuis Github pour récupérer le Backend
+- Cloner le Frontend de l'application depuis [Github](https://github.com/OpenClassrooms-Student-Center/dwj-projet6).
 
-Dites comment faire pour lancer votre projet
+### Installation du Frontend de l'application
 
-## Fabriqué avec
+- Ouvrir le terminal sur le dossier Frontend et exécuter ``npm install`` pour installer les dépendances.
+- Exécuter ``npm install node-sass@4.14.1`` pour installer sass.
+- Le projet utilise Angular CLI en version 7.0.2.
+- Démarrer le projet avec ``ng server`` ou ``npm start`` pour pouvoir accéder au serveur de developpement.
+- Rendez-vous sur (http://localhost:4200/). L'application va  se recharger automatiquement si vous modifiez un fichier source.
 
-Entrez les programmes/logiciels/ressources que vous avez utilisé pour développer votre projet
+### Installation du Backend de l'application
 
-_exemples :_
-* [Materialize.css](http://materializecss.com) - Framework CSS (front-end)
-* [Atom](https://atom.io/) - Editeur de textes
+- Ouvrir le terminal sur le dossier Backend et exécuter ``npm install`` pour installer les dépendances.
+- Pour pouvoir utiliser le serveur, exécuter : ``npm i nodemon`` pour installer nodemon.
+- Puis lancez le serveur : ``npm run dev`` dans le terminal les messages listening on port 3000 et Connexion à MongoDB réussie vont apparaître.
 
-## Contributing
+## Connexion
 
-Si vous souhaitez contribuer, lisez le fichier [CONTRIBUTING.md](https://example.org) pour savoir comment le faire.
-
-## Versions
-Listez les versions ici 
-_exemple :_
-**Dernière version stable :** 5.0
-**Dernière version :** 5.1
-Liste des versions : [Cliquer pour afficher](https://github.com/your/project-name/tags)
-_(pour le lien mettez simplement l'URL de votre projets suivi de ``/tags``)_
+- Ouvrir [localhost:4200](http://localhost:4200/login) dans votre navigateur.
+- Pour s'inscrire à l'application vous devez renseigner un email et un mot de passe.
 
 ## Auteurs
 Listez le(s) auteur(s) du projet ici !
@@ -62,4 +62,4 @@ _(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``
 
 ## License
 
-Ce projet est sous licence ``exemple: WTFTPL`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
+Copyright © 2021 [Marine Bedouret](https://github.com/Marinebedouret)
