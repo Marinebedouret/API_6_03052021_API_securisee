@@ -7,7 +7,7 @@
 
 L'objectif du projet 6 est de créer le backend de l'application "So Pekocko", pour permettre aux utilisateurs de créer leurs sauces préférées et de liker ou de disliker les sauces ajoutées par les autres utilisateurs de l'application.
 
-Le frontend de l'application est déjà founi et codé.
+Le frontend de l'application est déjà founi.
 
 ### Contexte du projet
 
