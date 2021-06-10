@@ -13,7 +13,7 @@ Le frontend de l'application est déjà founi et codé.
 
 - So Pekocko est une entreprise familiale de 10 salariés.
 - L'activité principale est la création de sauces piquantes.
-- L'entreprise souhaite se développer et créer une application web.
+
 
 ### Exigence du projet 
 
