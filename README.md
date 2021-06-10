@@ -53,7 +53,7 @@ Le frontend de l'application est déjà founi et codé.
 - Pour s'inscrire à l'application vous devez renseigner un email et un mot de passe.
 
 ## Auteur
-[Marine Bédouret] (https://github.com/Marinebedouret)
+[Marine Bédouret](https://github.com/Marinebedouret)
 
 
 ## License
