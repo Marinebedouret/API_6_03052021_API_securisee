@@ -15,7 +15,7 @@ Le frontend de l'application est déjà founi et codé.
 - L'activité principale est la création de sauces piquantes.
 
 
-### Exigence du projet 
+### Exigences du projet 
 
 - Création d'une API sécurisé, respectant le RGPD et les standards OWASP
 - Stocker les données personnelles des utilisateurs de manière sécurisée
