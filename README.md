@@ -52,13 +52,9 @@ Le frontend de l'application est déjà founi et codé.
 - Ouvrir [localhost:4200](http://localhost:4200/login) dans votre navigateur.
 - Pour s'inscrire à l'application vous devez renseigner un email et un mot de passe.
 
-## Auteurs
-Listez le(s) auteur(s) du projet ici !
-* **Jhon doe** _alias_ [@outout14](https://github.com/outout14)
+## Auteur
+Marine Bédouret (https://github.com/Marinebedouret)
 
-Lisez la liste des [contributeurs](https://github.com/your/project/contributors) pour voir qui à aidé au projet !
-
-_(pour le lien mettez simplement l'URL de votre projet suivi de ``/contirubors``)_
 
 ## License
 
