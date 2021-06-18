@@ -7,15 +7,15 @@
 
 L'objectif du projet 6 est de créer le backend de l'application "So Pekocko", pour permettre aux utilisateurs de créer leurs sauces préférées et de liker ou de disliker les sauces ajoutées par les autres utilisateurs de l'application.
 
-Le frontend de l'application est déjà founi et codé.
+Le frontend de l'application est déjà founi.
 
 ### Contexte du projet
 
 - So Pekocko est une entreprise familiale de 10 salariés.
 - L'activité principale est la création de sauces piquantes.
-- L'entreprise souhaite se développer et créer une application web.
 
-### Exigence du projet 
+
+### Exigences du projet 
 
 - Création d'une API sécurisé, respectant le RGPD et les standards OWASP
 - Stocker les données personnelles des utilisateurs de manière sécurisée
