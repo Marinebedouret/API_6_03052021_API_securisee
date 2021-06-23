@@ -38,13 +38,13 @@ Le frontend de l'application est déjà founi.
 - Ouvrir le terminal sur le dossier Frontend et exécuter ``npm install`` pour installer les dépendances.
 - Exécuter ``npm install node-sass@4.14.1`` pour installer sass.
 - Le projet utilise Angular CLI en version 7.0.2.
-- Démarrer le projet avec ``ng server`` ou ``npm start`` pour pouvoir accéder au serveur de developpement.
+- Démarrer le projet avec ``npm start`` pour pouvoir accéder au serveur de developpement.
 - Rendez-vous sur (http://localhost:4200/). L'application va  se recharger automatiquement si vous modifiez un fichier source.
 
 ### Installation du Backend de l'application
 
 - Ouvrir le terminal sur le dossier Backend et exécuter ``npm install`` pour installer les dépendances.
-- Pour pouvoir utiliser le serveur, exécuter : ``npm i nodemon`` pour installer nodemon.
+- Création du fichier .env avec l'aide du fichier .env.example pour pouvoir se connecter à l'application.
 - Puis lancez le serveur : ``npm run dev`` dans le terminal les messages listening on port 3000 et Connexion à MongoDB réussie vont apparaître.
 
 ## Connexion
