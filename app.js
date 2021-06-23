@@ -86,6 +86,7 @@ app.use(hpp());
 //*************************Utilisation du module helmet pour sécuriser divers en-têtes HTTP et de certaines vulnérabilités.***************************/
 app.use(helmet());
 
+
 app.use('/images', express.static(path.join(__dirname, 'images')));
 
 //Routes API
