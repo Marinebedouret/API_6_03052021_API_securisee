@@ -55,9 +55,9 @@ app.use(limiter); //S'applique à toutes les demandes
 //********Utilisation du module toobusy pour protéger l'application d'un trafic réseau trop important*******************************************
 
 //Indique la durée maximale en milisecondes pendant laquelle la file d'attente des événements est en retard.
-toobusy.maxLag(70);
+toobusy.maxLag(10);
 //Interval mesure le retard de boucle d'événément, en ms.
-toobusy.interval(500);
+toobusy.interval(250);
 let currentMaxLag = toobusy.maxLag(), interval = toobusy.interval();
 toobusy.onLag(function(currentLag){
   console.log("Latence de boucle d'évènement détecté ! Latence : " + currentLag + "ms ");
