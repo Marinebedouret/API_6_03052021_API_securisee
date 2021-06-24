@@ -1,5 +1,4 @@
 const jwt = require('jsonwebtoken');
-const CryptoJS = require('crypto-js');
 
 module.exports = (req, res, next) => {
     try {
