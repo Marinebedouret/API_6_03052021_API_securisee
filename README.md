@@ -45,6 +45,7 @@ Le frontend de l'application est déjà founi.
 
 - Ouvrir le terminal sur le dossier Backend et exécuter ``npm install`` pour installer les dépendances.
 - Création du fichier .env avec l'aide du fichier .env.example pour pouvoir se connecter à l'application.
+- Exécuter ``npm i nodemon`` pour pouvoir utiliser nodemon.
 - Puis lancez le serveur : ``npm run dev`` dans le terminal les messages listening on port 3000 et Connexion à MongoDB réussie vont apparaître.
 
 ## Connexion
