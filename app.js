@@ -49,7 +49,7 @@ app.use(mongoSanitize({
 //***********************************************Utilisation du module Express-rate-limit pour aider à prévenir des attaques de force brute*************/
 const limiter = rateLimit({
   windowMs: 15 * 60 * 1000, //15 minutes
-  max: 100 //limite chaque IP à 100 requêtes par windowMs
+  max: 300 //limite chaque IP à 300 requêtes par windowMs
 })
 app.use(limiter); //S'applique à toutes les demandes
 //********Utilisation du module toobusy pour protéger l'application d'un trafic réseau trop important*******************************************
